@@ -11,3 +11,5 @@ https://github.com/adafruit/DHT-sensor-library
 - U8glib library
 https://github.com/olikraus/u8g2
 
+## Wiring
+![Wiring iamge](https://github.com/kotamorishi/Temp-Humid-Arduino/raw/master/wiring.jpg)
