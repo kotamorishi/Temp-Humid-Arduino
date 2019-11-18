@@ -10,13 +10,13 @@ U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, SCL, SDA, U8X8_PIN_NONE);
 #define DHTTYPE DHT22
 DHT dht(DHTPINNUM, DHTTYPE);
 
-const int led_max_brightness = 40; // maximum led brightness
-int brightness = 0;    // how bright the LED is
-int isLedOn = false;
+const int led_max_brightness = 40; // maximum led brightness 0-255
+int   brightness = 0;    // how bright the LED is
+bool  isLedOn = false;
 float humidity;
 float temperature;
 char  buffer[5];
-    
+ 
 void setup()
 {
    Serial.begin(9600);
